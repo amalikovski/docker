@@ -74,11 +74,20 @@ subir serviços de acordo com arquivo yaml
 `version: '3'`
 
 bloco de serviços
-`services: `
 
-`nginx:`
+```services:nginx:
+services: 
+  nomeDoContainer:
+    image: nginx
+    volumes: 
+      - ./nginx:/usr/share/nginx/html
+    ports: 
+      - 8080:80
+
+```
 
 image existente
+
 `image: nginx`
 
 aqui é diretório compartilhado, tudo que estiver dentro do ./nginx vai para o /usr/share/nginx/html do container -> evita que se for apagado o container vai perder os dados alterados nesse diretorio ./nginx
