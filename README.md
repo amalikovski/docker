@@ -1,7 +1,7 @@
 # Guia de utilização do Docker
 
 // comando para criar e subir container baseada na imagem passada no campo <image>
-docker run <imagem>
+-- docker run <imagem>
 
 // lista containers ativos
 docker ps
