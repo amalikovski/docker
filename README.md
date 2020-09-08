@@ -25,10 +25,10 @@ excluir container - usar id ou nome do container
 `docker run --name nomecontainer -d -p 8080:80 nginx`
 
 executar comandos dentro do container
-`docker exec  <id nomecontainer>  ls`</id>
+`docker exec  <id/nomecontainer>  ls`</id>
 
 entrar de forma interativa dentro do container, entrando dentro do container e executando comandos dentro dele
-`docker exec -it  <id nomecontainer> bash`</id>
+`docker exec -it  <id/nomecontainer> bash`</id>
 
 listar imagens da maquina
 `docker images`
