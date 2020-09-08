@@ -37,7 +37,7 @@ listar imagens da maquina
 
 ## Automatização da criação de containers e imagens
 
-###### criando uma imagem a partir de um dockerfile
+#### criando uma imagem a partir de um dockerfile
 
 define a linguagem utilizada
 `FROM golang:1.14`
@@ -63,7 +63,7 @@ para criar a imagem -t = nome da imagem. O ponto (.) significa que vai pegar a c
 cria e starta o container a partir da imagem criada
 `docker run -p 8080:8080 anamalikovski/devfullcycle`
 
-###### gerenciamento de varios containers em um unico arquivo atraves do docker compose
+#### gerenciamento de varios containers em um unico arquivo atraves do docker compose
 
 subir serviços de acordo com arquivo yaml
 `docker-compose up`
