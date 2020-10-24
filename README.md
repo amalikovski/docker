@@ -1,7 +1,7 @@
 <h1 align="center">Guia Docker</h1>
 <p align="center"> Projeto com guia básico de utilização do Docker </p>
 <p align="center"> 🚧  Em constante construção 🚧 </p>
-<p align="center"><img src="https://img.shields.io/static/v1?label=Docker&message=Guia&logoColor=white&labelColor=066DA5&color=5a5e60&style=for-the-badge&logo=docker" /></p>
+<p align="center"><img src="https://img.shields.io/static/v1?label=Docker&message=Guia&logoColor=white&labelColor=066DA5&color=5a5e60&style=for-the-badge&logo=docker" /> <img src="https://img.shields.io/github/license/amalikovski/docker?style=for-the-badge" /></p>
 
 <h2>Tabela de Conteúdos</h2>
 
