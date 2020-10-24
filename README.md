@@ -1,21 +1,19 @@
 <h1 align="center">Guia Docker</h1>
-<p align="center">🚀 Projeto com guia básico de utilização do Docker </p>
+<p align="center"> Projeto com guia básico de utilização do Docker </p>
 <p align="center"> 🚧  Em constante construção 🚧
 <p align="center"><img src="https://img.shields.io/static/v1?label=Docker&message=Guia&logoColor=white&labelColor=066DA5&color=5a5e60&style=for-the-badge&logo=docker" /></p>
 
-<h5>Conteúdos</h5>
-<ul>
-<li><a href="#comandos">Comandos para gerenciamento dos container</a>
-</li>
-<li> <a href="#automatizacao">Automatização do gerenciamento de containers</a> 
-<ul><li><a href="#dockerfile">Criar uma imagem utilizando o dockerfile</a></li>
-<li><a href="#compose">Gerenciamento de containers utilizando o docker compose</a></li></ul>
-</li>
-<li><a href="#tecnologias">Tecnologias</a></li>
+## Tabela de Conteúdos
 
-<li><a href="#autor">Autor</a></li></ul>
+- [Guia de Utilização Docker](#guia)
+  - [Comandos para gerenciamento dos container](#comandos)
+  - [Automatização do gerenciamento de containers](#automatizacao)
+    - [Criar uma imagem utilizando o dockerfile](#dockerfile)
+    - [Gerenciamento de containers utilizando o docker compose](#dockerfile)
+- [Tecnologias](#tecnologias)
+- [Autor](#autor)
 
-
+<h4>Guia de Utilização Docker</h4>
 
 <h5 id="comandos">Comandos para gerenciamento dos container</h5>
 
