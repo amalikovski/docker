@@ -1,9 +1,9 @@
 <h1 align="center">Guia Docker</h1>
 <p align="center"> Projeto com guia básico de utilização do Docker </p>
-<p align="center"> 🚧  Em constante construção 🚧
+<p align="center"> 🚧  Em constante construção 🚧 </p>
 <p align="center"><img src="https://img.shields.io/static/v1?label=Docker&message=Guia&logoColor=white&labelColor=066DA5&color=5a5e60&style=for-the-badge&logo=docker" /></p>
 
-## Tabela de Conteúdos
+<h3>Tabela de Conteúdos</h3>
 
 - [Guia de Utilização Docker](#guia)
   - [Comandos para gerenciamento dos container](#comandos)
@@ -49,6 +49,7 @@
 
 -> comando para listar imagens da maquina
 `docker images`
+
 
 <h5 id="automatizacao">Automatização da criação de containers e imagens</h5>
 
@@ -111,7 +112,8 @@ mesma questão das portas de apontamento: acessa local 8080 e redireciona para 8
 
 `- 8080:80`
 
-<h5 id="tecnologias">Tecnologias </h5>
+<h4 id="tecnologias">Tecnologias </h4>
+
 <p> As tecnologias abaixo foram utilizadas neste guia</p>
 
 <ul><li><a href="https://www.docker.com">Docker</a></li>
@@ -119,14 +121,14 @@ mesma questão das portas de apontamento: acessa local 8080 e redireciona para 8
 <li><a href="https://yaml.org">Yaml - Linguagem utilizada no arquivo DockerFile<a></li>
 <li><a href="http://www.golangbr.org">Go - Linguagem utilizada no arquivo main.go</a></li></ul>
 
-<h5 id="autor">Autor </h5>
+<h4 id="autor">Autor </h4>
 
 <a href="https://www.linkedin.com/in/anamalikovski/">
-<img style="border-radius: 50%;" src="./assets/autor.jpg" width="100px;" alt="Ana Malikovski"/>
+<img style="border-radius: 50%;" src="https://avatars0.githubusercontent.com/u/13136758?s=460&u=0bce9702753d99860cff44fe29aeec36d0a7a437&v=4" width="100px;" alt="Ana Malikovski"/>
 <br />
 <sub><b>Ana Malikovski</b></sub></a>
 
-👋🏽 Entre em contato!
-[![Linkedin Badge](https://img.shields.io/badge/-Ana-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/anamalikovski/)](https://www.linkedin.com/in/anamalikovski/)
-[![Gmail Badge](https://img.shields.io/badge/-amalikovski@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:amalikovski@gmail.com)](mailto:amalikovski@gmail.com)
+<sub>👋🏽 Entre em contato! </sub>
+
+[![Linkedin Badge](https://img.shields.io/badge/-Ana-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/anamalikovski/)](https://www.linkedin.com/in/anamalikovski/)  [![Gmail Badge](https://img.shields.io/badge/-amalikovski@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:amalikovski@gmail.com)](mailto:amalikovski@gmail.com)
 
