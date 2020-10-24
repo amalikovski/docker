@@ -3,9 +3,9 @@
 <p align="center"> 🚧  Em constante construção 🚧 </p>
 <p align="center"><img src="https://img.shields.io/static/v1?label=Docker&message=Guia&logoColor=white&labelColor=066DA5&color=5a5e60&style=for-the-badge&logo=docker" /></p>
 
-<h3>Tabela de Conteúdos</h3>
+<h2>Tabela de Conteúdos</h2>
 
-- **[Guia de Utilização Docker](#guia)**
+- [Guia de Utilização Docker](#guia)
   - [Comandos para gerenciamento dos container](#comandos)
   - [Automatização do gerenciamento de containers](#automatizacao)
     - [Criar uma imagem utilizando o dockerfile](#dockerfile)
@@ -13,9 +13,10 @@
 - [Tecnologias](#tecnologias)
 - [Autor](#autor)
 
-<h4>Guia de Utilização Docker</h4>
 
-<h5 id="comandos">Comandos para gerenciamento dos container</h5>
+<h2 id="guia">Guia de Utilização Docker</h2>
+
+<h3 id="comandos">Comandos para gerenciamento dos container</h3>
 
 -> comando para criar e subir container baseado na imagem passada
 `docker run <imagem>`
@@ -51,9 +52,9 @@
 `docker images`
 
 
-<h5 id="automatizacao">Automatização da criação de containers e imagens</h5>
+<h3 id="automatizacao">Automatização da criação de containers e imagens</h3>
 
-<h6 id="dockerfile">Criar uma imagem utilizando o dockerfile</h6>
+<h4 id="dockerfile">Criar uma imagem utilizando o dockerfile</h4>
 
 <a href="https://github.com/amalikovski/docker/blob/master/Dockerfile">Visualizar arquivo de exemplo de DockerFile</a>
 
@@ -78,7 +79,7 @@
 -> para criar cria e starta o container a partir da imagem criada
 `docker run -p 8080:8080 anamalikovski/devfullcycle`
 
-<h6 id="compose">Gerenciamento de containers utilizando o docker compose</h6>
+<h4 id="compose">Gerenciamento de containers utilizando o docker compose</h4>
 
 -> para subir serviços de acordo com arquivo yaml
 `docker-compose up`
@@ -112,7 +113,7 @@ mesma questão das portas de apontamento: acessa local 8080 e redireciona para 8
 
 `- 8080:80`
 
-<h4 id="tecnologias">Tecnologias </h4>
+<h2 id="tecnologias">Tecnologias </h2>
 
 <p> As tecnologias abaixo foram utilizadas neste guia</p>
 
@@ -121,7 +122,7 @@ mesma questão das portas de apontamento: acessa local 8080 e redireciona para 8
 <li><a href="https://yaml.org">Yaml - Linguagem utilizada no arquivo DockerFile<a></li>
 <li><a href="http://www.golangbr.org">Go - Linguagem utilizada no arquivo main.go</a></li></ul>
 
-<h4 id="autor">Autor </h4>
+<h2 id="autor">Autor </h2>
 
 <a href="https://www.linkedin.com/in/anamalikovski/">
 <img style="border-radius: 50%;" src="https://avatars0.githubusercontent.com/u/13136758?s=460&u=0bce9702753d99860cff44fe29aeec36d0a7a437&v=4" width="100px;" alt="Ana Malikovski"/>
