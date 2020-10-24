@@ -5,7 +5,7 @@
 
 <h3>Tabela de Conteúdos</h3>
 
-- [Guia de Utilização Docker](#guia)
+- **[Guia de Utilização Docker](#guia)**
   - [Comandos para gerenciamento dos container](#comandos)
   - [Automatização do gerenciamento de containers](#automatizacao)
     - [Criar uma imagem utilizando o dockerfile](#dockerfile)
